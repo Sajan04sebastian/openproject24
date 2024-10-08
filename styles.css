@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: url("/home/year3/Downloads/ss.jpg") ; 
+    
+    color: #fff;
+    padding: 80px;
+    width: 100%;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    margin-top: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    padding: 14px 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #575757;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.gallery img {
+    width: 30%;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.content {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #00264d;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.heading1 {
+	color: #99ccff;
+	font-style: italic;
+}
+.contact1{
+        color: #99ccff;
+	font-style: italic;
+}
+.gallery{
+    display: flex;
+	gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: space-around;
+    
+}
+.gallery img {
+    width:400px;
+	height: 50px;
+	object-fit: cover;
+transition: transform 0.3s ease-in-out;
+    margin: 10px;
+    border-radius: 10px;
+    height: 450px;
+    margin-left: 10px;
+	transform: scale(1);
+}
+.gallery img:hover {
+	transform: scale(1.2);
+}
+
+.cont{
+display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+     padding: 20px;
+    justify-content: space-around;
+    
+    } 
+.cont .g1{
+transition: transform 0.3s ease-in-out;
+transform: scale(1);
+}
+.cont .g1:hover{
+transform: scale(1.2);
+}
+.cont .g2{
+transition: transform 0.3s ease-in-out;
+transform: scale(1);
+}
+.cont .g2:hover{
+transform: scale(1.2);
+}
+.cont .g3{
+transition: transform 0.3s ease-in-out;
+transform: scale(1);
+}
+.cont .g3:hover{
+transform: scale(1.2);
+}
+.cont .g4{
+transition: transform 0.3s ease-in-out;
+transform: scale(1);
+}
+.cont .g4:hover{
+transform: scale(1.2);
+}
+.cont .g5{
+transition: transform 0.3s ease-in-out;
+transform: scale(1);
+}
+.cont .g5:hover{
+transform: scale(1.2);
+}
+    .g1,.g2,.g3,.g4,.g5{
+    background-color: #00264d;
+    color: #ffff99;
+    width: 20%;
+    padding:25px;
+    margin: 10px;
+    border-radius: 10px;
+    height: 65px;
+    margin-left: 50px;}
